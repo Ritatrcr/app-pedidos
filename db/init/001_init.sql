@@ -1,0 +1,5 @@
+CREATE TABLE IF NOT EXISTS orders (
+  id SERIAL PRIMARY KEY,
+  nombre TEXT NOT NULL,
+  pedido TEXT NOT NULL
+);
